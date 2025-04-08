@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 775075027}
   - component: {fileID: 775075026}
   m_Layer: 0
-  m_Name: Spawner1
+  m_Name: SpawnerZombie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885792a344e63574ca264a5d7c83c50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyPrefab: {fileID: 3325542613968193064, guid: ced67134ec50cdf4d949b77aa3870598, type: 3}
+  _enemyPrefab: {fileID: 1136816820744368816, guid: ced67134ec50cdf4d949b77aa3870598, type: 3}
   _target: {fileID: 799413233}
   _timeRate: 2
 --- !u!4 &775075027
@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 1587973237}
   - component: {fileID: 1587973236}
   m_Layer: 0
-  m_Name: Spawner2
+  m_Name: SpawnerSkeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -910,7 +910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885792a344e63574ca264a5d7c83c50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyPrefab: {fileID: 3325542613968193064, guid: b52e4e8d1468f5145af1f5a37d90f69c, type: 3}
+  _enemyPrefab: {fileID: 5258419155392759432, guid: b52e4e8d1468f5145af1f5a37d90f69c, type: 3}
   _target: {fileID: 919941906}
   _timeRate: 2
 --- !u!4 &1587973237

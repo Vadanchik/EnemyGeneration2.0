@@ -114,9 +114,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4007612715121385227}
-  - component: {fileID: 3325542613968193064}
+  - component: {fileID: 1136816820744368816}
   m_Layer: 0
-  m_Name: Enemy2
+  m_Name: Zombie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3325542613968193064
+--- !u!114 &1136816820744368816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6996695675027502027}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc83137d6d6113f4d86fd53c8d47a416, type: 3}
+  m_Script: {fileID: 11500000, guid: ee200d0315b08ad4ebdaa77687e1f0cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _movementSpeed: 1
@@ -215,7 +215,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0a68f4b1e7b4eb442b8831da882c6674, type: 2}
+  - {fileID: 2100000, guid: ff0005bb475618148928bdc7bd82aba2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

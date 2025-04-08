@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
@@ -8,12 +9,24 @@ public class Spawner : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating(nameof(Spawn), 0, _timeRate);
+        StartCoroutine(SpawnRepeating());
     }
 
     private void Spawn()
     {
         Enemy enemy = Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
         enemy.Init(_target);
+    }
+
+    private IEnumerator SpawnRepeating()
+    {
+        WaitForSeconds wait = new WaitForSeconds(_timeRate);
+
+        while (enabled)
+        {
+            Spawn();
+
+            yield return wait;
+        }
     }
 }
